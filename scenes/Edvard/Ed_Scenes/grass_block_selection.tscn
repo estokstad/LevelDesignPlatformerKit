@@ -1,0 +1,50 @@
+[gd_scene load_steps=11 format=3 uid="uid://diu1tdkgiu5nw"]
+
+[ext_resource type="PackedScene" uid="uid://dunj1rjqoy2c8" path="res://models/props/block-grass-large-slope-narrow.glb" id="1_xqqld"]
+[ext_resource type="PackedScene" uid="uid://c5vxnhiis2bno" path="res://models/props/block-grass-large-slope-steep-narrow.glb" id="2_cdbl1"]
+[ext_resource type="PackedScene" uid="uid://cqxb34rley0yv" path="res://models/props/block-grass-large-slope-steep.glb" id="3_s1wii"]
+[ext_resource type="PackedScene" uid="uid://b56gvebgs3gqc" path="res://models/props/block-grass-large-slope.glb" id="4_dnxgy"]
+[ext_resource type="PackedScene" uid="uid://s1bbwujq22dg" path="res://models/props/block-grass-large-tall.glb" id="5_hbidj"]
+[ext_resource type="PackedScene" uid="uid://ct3jqgtvmr86q" path="res://models/props/block-grass-large.glb" id="6_jfk45"]
+[ext_resource type="PackedScene" uid="uid://caoqmoox7uqm7" path="res://models/props/block-grass-long.glb" id="7_f8ck1"]
+[ext_resource type="PackedScene" uid="uid://cittfy5ibaiot" path="res://models/props/block-grass-low-large.glb" id="8_ph4px"]
+[ext_resource type="PackedScene" uid="uid://canh2cf2meiqs" path="res://models/props/block-grass-low-long.glb" id="9_g5qrs"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fw6dp"]
+size = Vector3(2, 2, 2)
+
+[node name="GrassBlock_selection" type="Node3D"]
+
+[node name="block-grass-large-slope-narrow2" parent="." instance=ExtResource("1_xqqld")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 2)
+
+[node name="block-grass-large-slope-steep-narrow2" parent="." instance=ExtResource("2_cdbl1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 2)
+
+[node name="block-grass-large-slope-steep2" parent="." instance=ExtResource("3_s1wii")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="block-grass-large-slope2" parent="." instance=ExtResource("4_dnxgy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
+
+[node name="GrassBlock_tall" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+
+[node name="AnimatableBody3D" type="AnimatableBody3D" parent="GrassBlock_tall"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GrassBlock_tall/AnimatableBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("BoxShape3D_fw6dp")
+
+[node name="block-grass-large-tall2" parent="GrassBlock_tall/AnimatableBody3D" instance=ExtResource("5_hbidj")]
+
+[node name="block-grass-large2" parent="." instance=ExtResource("6_jfk45")]
+
+[node name="block-grass-long2" parent="." instance=ExtResource("7_f8ck1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
+
+[node name="block-grass-low-large2" parent="." instance=ExtResource("8_ph4px")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+
+[node name="block-grass-low-long2" parent="." instance=ExtResource("9_g5qrs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -2)
