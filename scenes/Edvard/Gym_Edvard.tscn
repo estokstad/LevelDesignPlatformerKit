@@ -156,6 +156,33 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, 3, 20)
 [node name="coin4" parent="World" instance=ExtResource("8_lj3u3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 4, -3.5)
 
+[node name="platform6" parent="World" instance=ExtResource("18_38r6k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 7, 11.5)
+
+[node name="platform8" parent="World" instance=ExtResource("18_38r6k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 7, 16)
+
+[node name="platform-large2" parent="World" instance=ExtResource("4_fhfpe")]
+transform = Transform3D(-0.199111, 0, 0.979977, 0, 1, 0, -0.979977, 0, -0.199111, -21.8942, 6.5, -2.45152)
+
+[node name="platform-large4" parent="World" instance=ExtResource("4_fhfpe")]
+transform = Transform3D(0.987832, 0, -0.155521, 0, 1, 0, 0.155521, 0, 0.987832, -25.8556, 6, -2.4799)
+
+[node name="platform-large5" parent="World" instance=ExtResource("4_fhfpe")]
+transform = Transform3D(0.823641, 0, -0.567111, 0, 1, 0, 0.567111, 0, 0.823641, -29.0965, 5.5, -3.77442)
+
+[node name="platform-large6" parent="World" instance=ExtResource("4_fhfpe")]
+transform = Transform3D(0.9291, 0, 0.369828, 0, 1, 0, -0.369828, 0, 0.9291, -32.3483, 7.13361, -11.974)
+
+[node name="platform-large3" parent="World" instance=ExtResource("4_fhfpe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 6.5, 8)
+
+[node name="platform-large7" parent="World" instance=ExtResource("4_fhfpe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.5, 7, 19.5)
+
+[node name="platform-medium4" parent="World" instance=ExtResource("5_t51wp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, 7, 7.5)
+
 [node name="Sun" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.422618, -0.694272, 0.582563, 0, 0.642788, 0.766044, -0.906308, 0.323744, -0.271654, 0, 0, 0)
 shadow_enabled = true

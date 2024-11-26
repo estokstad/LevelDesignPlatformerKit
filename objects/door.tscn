@@ -1,13 +1,14 @@
-[gd_scene load_steps=5 format=3 uid="uid://0v6t454aaexr"]
+[gd_scene load_steps=6 format=3 uid="uid://0v6t454aaexr"]
 
 [ext_resource type="PackedScene" uid="uid://ctsyh8fjntx7y" path="res://models/props/door-rotate-large.glb" id="1_ue8vn"]
 [ext_resource type="Script" path="res://scripts/door.gd" id="2_lc1yq"]
+[ext_resource type="PackedScene" uid="uid://dwvhgrcyestak" path="res://objects/trap_spikes.tscn" id="3_egcea"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_2844u"]
 size = Vector3(2, 2, 0.5)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_nw6n4"]
-size = Vector3(0.420929, 1.9817, 0.476913)
+size = Vector3(0.395142, 1.12244, 0.476913)
 
 [node name="door" groups=["Door"] instance=ExtResource("1_ue8vn")]
 process_mode = 3
@@ -23,16 +24,38 @@ transform = Transform3D(1, 0, -3.87541e-16, 0, 1, 0, 3.87541e-16, 0, 1, -0.3, 3.
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+visible = false
 shape = SubResource("BoxShape3D_2844u")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D" index="1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.802543, 0.99154, -0.0139771)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.788717, 0.56161, -0.0139771)
 shape = SubResource("BoxShape3D_nw6n4")
 
 [node name="CollisionShape3D3" type="CollisionShape3D" parent="StaticBody3D" index="2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.76375, 0.99154, -0.0139771)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.783118, 0.55653, -0.0139771)
 shape = SubResource("BoxShape3D_nw6n4")
 
 [node name="CollisionShape3D4" type="CollisionShape3D" parent="StaticBody3D" index="3"]
-transform = Transform3D(-4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, 0.022729, 1.76412, 0.0428391)
+transform = Transform3D(-4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, 0.00960119, 1.74794, 0.0428391)
 shape = SubResource("BoxShape3D_nw6n4")
+
+[node name="trap-spikes" parent="StaticBody3D" index="4" instance=ExtResource("3_egcea")]
+transform = Transform3D(-2.18557e-08, 0.7, 0, -0.5, -3.0598e-08, 0, 0, 0, 0.5, 1, 0.346578, 0)
+
+[node name="trap-spikes3" parent="StaticBody3D" index="5" instance=ExtResource("3_egcea")]
+transform = Transform3D(-2.18557e-08, 0.7, 0, -0.5, -3.0598e-08, 0, 0, 0, 0.5, 1, 0.846578, 0)
+
+[node name="trap-spikes6" parent="StaticBody3D" index="6" instance=ExtResource("3_egcea")]
+transform = Transform3D(0.5, 0, 0, 0, 0.7, 0, 0, 0, 0.5, 0, 1.98128, 0)
+
+[node name="trap-spikes2" parent="StaticBody3D" index="7" instance=ExtResource("3_egcea")]
+transform = Transform3D(2.18557e-08, -0.7, -7.54979e-08, -0.5, -3.0598e-08, 0, -3.30012e-15, 1.05697e-07, -0.5, -1, 0.346578, 0)
+
+[node name="trap-spikes5" parent="StaticBody3D" index="8" instance=ExtResource("3_egcea")]
+transform = Transform3D(2.18557e-08, -0.7, -7.54979e-08, -0.5, -3.0598e-08, 0, -3.30012e-15, 1.05697e-07, -0.5, -1, 0.846578, 0)
+
+[node name="trap-spikes4" parent="StaticBody3D" index="9" instance=ExtResource("3_egcea")]
+transform = Transform3D(0.353553, 0.494975, 0, -0.353553, 0.494975, 0, 0, 0, 0.5, 0.699415, 1.68685, 0.01984)
+
+[node name="trap-spikes7" parent="StaticBody3D" index="10" instance=ExtResource("3_egcea")]
+transform = Transform3D(-0.353553, -0.494975, 4.37114e-08, -0.353553, 0.494975, 0, -3.09086e-08, -4.32721e-08, -0.5, -0.692554, 1.68685, 0.01984)
