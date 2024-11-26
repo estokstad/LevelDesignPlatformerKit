@@ -26,7 +26,7 @@ proximity_fade_distance = 0.25
 _data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.249284, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
 point_count = 3
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_tg6vl"]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xnxec"]
 height = 1.0
 
 [node name="Player" type="CharacterBody3D"]
@@ -84,6 +84,6 @@ freeze = true
 freeze_mode = 1
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
-shape = SubResource("CapsuleShape3D_tg6vl")
+shape = SubResource("CapsuleShape3D_xnxec")
 
 [editable path="Character"]

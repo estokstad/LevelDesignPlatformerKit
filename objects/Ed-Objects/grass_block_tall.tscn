@@ -1,16 +1,16 @@
 [gd_scene load_steps=3 format=3 uid="uid://bjm62tw42dtes"]
 
-[ext_resource type="PackedScene" uid="uid://s1bbwujq22dg" path="res://models/props/block-grass-large-tall.glb" id="1_05tbb"]
+[ext_resource type="PackedScene" uid="uid://s1bbwujq22dg" path="res://models/props/block-grass-large-tall.glb" id="1_7hhbp"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_fw6dp"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_3eo0e"]
 size = Vector3(2, 2, 2)
 
 [node name="GrassBlock_tall" type="Node3D"]
 
-[node name="AnimatableBody3D" type="AnimatableBody3D" parent="."]
+[node name="AnimatableBody3D2" type="AnimatableBody3D" parent="."]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
-shape = SubResource("BoxShape3D_fw6dp")
+shape = SubResource("BoxShape3D_3eo0e")
 
-[node name="block-grass-large-tall2" parent="AnimatableBody3D" instance=ExtResource("1_05tbb")]
+[node name="block-grass-large-tall2" parent="AnimatableBody3D2" instance=ExtResource("1_7hhbp")]
