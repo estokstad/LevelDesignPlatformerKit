@@ -26,8 +26,7 @@ proximity_fade_distance = 0.25
 _data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.249284, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
 point_count = 3
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xnxec"]
-height = 1.0
+[sub_resource type="SphereShape3D" id="SphereShape3D_tkgg3"]
 
 [node name="Player" type="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
@@ -82,8 +81,10 @@ collision_mask = 512
 can_sleep = false
 freeze = true
 freeze_mode = 1
+continuous_cd = true
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
-shape = SubResource("CapsuleShape3D_xnxec")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0672311, -0.0431046)
+shape = SubResource("SphereShape3D_tkgg3")
 
 [editable path="Character"]

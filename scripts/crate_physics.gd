@@ -1,5 +1,6 @@
 extends Node3D
 
+
 @onready var rigid_body_3d: RigidBody3D = $RigidBody3D
 @onready var button_presser_area_3d: Area3D = $RigidBody3D/ButtonPresserArea3D
 var countdown = 0.0
@@ -12,7 +13,7 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	
-	print(rigid_body_3d.linear_velocity.length()) 
+	
 	
 	if rigid_body_3d.linear_velocity.length() < 0.1:
 		

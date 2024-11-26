@@ -15,7 +15,6 @@ script = ExtResource("1_h6fso")
 collision_layer = 513
 collision_mask = 513
 mass = 1.2
-can_sleep = false
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, 0)
@@ -32,3 +31,5 @@ monitoring = false
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D/ButtonPresserArea3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
 shape = SubResource("BoxShape3D_sw8vx")
+
+[connection signal="body_entered" from="RigidBody3D" to="." method="_on_rigid_body_3d_body_entered"]
