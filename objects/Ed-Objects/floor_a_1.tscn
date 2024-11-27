@@ -1,0 +1,1207 @@
+[gd_scene load_steps=2 format=3 uid="uid://c14v670qgrgwo"]
+
+[ext_resource type="PackedScene" uid="uid://dmi5g4yshkjy7" path="res://objects/Ed-Objects/cube_half_1x_1.tscn" id="1_q0kfv"]
+
+[node name="Floor-A1" type="Node3D"]
+
+[node name="Floor-A1" type="Node" parent="."]
+
+[node name="Cube_half_1x1" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 10.5)
+
+[node name="Cube_half_1x2" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 9.5)
+
+[node name="Cube_half_1x3" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 8.5)
+
+[node name="Cube_half_1x4" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 7.5)
+
+[node name="Cube_half_1x5" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 6.5)
+
+[node name="Cube_half_1x6" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 5.5)
+
+[node name="Cube_half_1x7" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 4.5)
+
+[node name="Cube_half_1x8" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 3.5)
+
+[node name="Cube_half_1x9" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 2.5)
+
+[node name="Cube_half_1x10" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 1.5)
+
+[node name="Cube_half_1x11" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 0.5)
+
+[node name="Cube_half_1x14" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 19.5)
+
+[node name="Cube_half_1x15" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 18.5)
+
+[node name="Cube_half_1x16" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 17.5)
+
+[node name="Cube_half_1x17" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 16.5)
+
+[node name="Cube_half_1x18" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 15.5)
+
+[node name="Cube_half_1x19" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 14.5)
+
+[node name="Cube_half_1x20" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 13.5)
+
+[node name="Cube_half_1x21" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 12.5)
+
+[node name="Cube_half_1x22" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, -0.5, 11.5)
+
+[node name="Cube_half_1x12" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 10.5)
+
+[node name="Cube_half_1x13" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 9.5)
+
+[node name="Cube_half_1x23" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 8.5)
+
+[node name="Cube_half_1x24" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 7.5)
+
+[node name="Cube_half_1x25" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 6.5)
+
+[node name="Cube_half_1x26" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 5.5)
+
+[node name="Cube_half_1x27" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 4.5)
+
+[node name="Cube_half_1x28" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 3.5)
+
+[node name="Cube_half_1x29" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 2.5)
+
+[node name="Cube_half_1x30" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 1.5)
+
+[node name="Cube_half_1x31" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 0.5)
+
+[node name="Cube_half_1x32" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 19.5)
+
+[node name="Cube_half_1x33" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 18.5)
+
+[node name="Cube_half_1x34" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 17.5)
+
+[node name="Cube_half_1x35" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 16.5)
+
+[node name="Cube_half_1x36" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 15.5)
+
+[node name="Cube_half_1x37" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 14.5)
+
+[node name="Cube_half_1x38" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 13.5)
+
+[node name="Cube_half_1x39" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 12.5)
+
+[node name="Cube_half_1x40" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.5, -0.5, 11.5)
+
+[node name="Cube_half_1x41" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 10.5)
+
+[node name="Cube_half_1x42" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 9.5)
+
+[node name="Cube_half_1x43" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 8.5)
+
+[node name="Cube_half_1x44" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 7.5)
+
+[node name="Cube_half_1x45" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 6.5)
+
+[node name="Cube_half_1x46" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 5.5)
+
+[node name="Cube_half_1x47" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 4.5)
+
+[node name="Cube_half_1x48" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 3.5)
+
+[node name="Cube_half_1x49" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 2.5)
+
+[node name="Cube_half_1x50" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 1.5)
+
+[node name="Cube_half_1x51" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 0.5)
+
+[node name="Cube_half_1x52" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 19.5)
+
+[node name="Cube_half_1x53" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 18.5)
+
+[node name="Cube_half_1x54" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 17.5)
+
+[node name="Cube_half_1x55" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 16.5)
+
+[node name="Cube_half_1x56" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 15.5)
+
+[node name="Cube_half_1x57" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 14.5)
+
+[node name="Cube_half_1x58" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 13.5)
+
+[node name="Cube_half_1x59" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 12.5)
+
+[node name="Cube_half_1x60" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, -0.5, 11.5)
+
+[node name="Cube_half_1x61" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 10.5)
+
+[node name="Cube_half_1x62" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 9.5)
+
+[node name="Cube_half_1x63" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 8.5)
+
+[node name="Cube_half_1x64" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 7.5)
+
+[node name="Cube_half_1x65" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 6.5)
+
+[node name="Cube_half_1x66" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 5.5)
+
+[node name="Cube_half_1x67" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 4.5)
+
+[node name="Cube_half_1x68" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 3.5)
+
+[node name="Cube_half_1x69" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 2.5)
+
+[node name="Cube_half_1x70" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 1.5)
+
+[node name="Cube_half_1x71" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 0.5)
+
+[node name="Cube_half_1x72" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 19.5)
+
+[node name="Cube_half_1x73" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 18.5)
+
+[node name="Cube_half_1x74" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 17.5)
+
+[node name="Cube_half_1x75" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 16.5)
+
+[node name="Cube_half_1x76" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 15.5)
+
+[node name="Cube_half_1x77" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 14.5)
+
+[node name="Cube_half_1x78" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 13.5)
+
+[node name="Cube_half_1x79" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 12.5)
+
+[node name="Cube_half_1x80" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, -0.5, 11.5)
+
+[node name="Cube_half_1x81" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 10.5)
+
+[node name="Cube_half_1x82" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 9.5)
+
+[node name="Cube_half_1x83" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 8.5)
+
+[node name="Cube_half_1x84" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 7.5)
+
+[node name="Cube_half_1x85" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 6.5)
+
+[node name="Cube_half_1x86" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 5.5)
+
+[node name="Cube_half_1x87" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 4.5)
+
+[node name="Cube_half_1x88" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 3.5)
+
+[node name="Cube_half_1x89" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 2.5)
+
+[node name="Cube_half_1x90" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 1.5)
+
+[node name="Cube_half_1x91" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 0.5)
+
+[node name="Cube_half_1x92" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 19.5)
+
+[node name="Cube_half_1x93" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 18.5)
+
+[node name="Cube_half_1x94" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 17.5)
+
+[node name="Cube_half_1x95" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 16.5)
+
+[node name="Cube_half_1x96" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 15.5)
+
+[node name="Cube_half_1x97" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 14.5)
+
+[node name="Cube_half_1x98" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 13.5)
+
+[node name="Cube_half_1x99" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 12.5)
+
+[node name="Cube_half_1x100" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5, -0.5, 11.5)
+
+[node name="Cube_half_1x101" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 10.5)
+
+[node name="Cube_half_1x102" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 9.5)
+
+[node name="Cube_half_1x103" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 8.5)
+
+[node name="Cube_half_1x104" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 7.5)
+
+[node name="Cube_half_1x105" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 6.5)
+
+[node name="Cube_half_1x106" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 5.5)
+
+[node name="Cube_half_1x107" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 4.5)
+
+[node name="Cube_half_1x108" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 3.5)
+
+[node name="Cube_half_1x109" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 2.5)
+
+[node name="Cube_half_1x110" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 1.5)
+
+[node name="Cube_half_1x111" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 0.5)
+
+[node name="Cube_half_1x112" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 19.5)
+
+[node name="Cube_half_1x113" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 18.5)
+
+[node name="Cube_half_1x114" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 17.5)
+
+[node name="Cube_half_1x115" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 16.5)
+
+[node name="Cube_half_1x116" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 15.5)
+
+[node name="Cube_half_1x117" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 14.5)
+
+[node name="Cube_half_1x118" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 13.5)
+
+[node name="Cube_half_1x119" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 12.5)
+
+[node name="Cube_half_1x120" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, -0.5, 11.5)
+
+[node name="Cube_half_1x121" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 10.5)
+
+[node name="Cube_half_1x122" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 9.5)
+
+[node name="Cube_half_1x123" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 8.5)
+
+[node name="Cube_half_1x124" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 7.5)
+
+[node name="Cube_half_1x125" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 6.5)
+
+[node name="Cube_half_1x126" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 5.5)
+
+[node name="Cube_half_1x127" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 4.5)
+
+[node name="Cube_half_1x128" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 3.5)
+
+[node name="Cube_half_1x129" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 2.5)
+
+[node name="Cube_half_1x130" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 1.5)
+
+[node name="Cube_half_1x131" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 0.5)
+
+[node name="Cube_half_1x132" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 19.5)
+
+[node name="Cube_half_1x133" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 18.5)
+
+[node name="Cube_half_1x134" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 17.5)
+
+[node name="Cube_half_1x135" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 16.5)
+
+[node name="Cube_half_1x136" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 15.5)
+
+[node name="Cube_half_1x137" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 14.5)
+
+[node name="Cube_half_1x138" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 13.5)
+
+[node name="Cube_half_1x139" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 12.5)
+
+[node name="Cube_half_1x140" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.5, 11.5)
+
+[node name="Cube_half_1x141" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 10.5)
+
+[node name="Cube_half_1x142" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 9.5)
+
+[node name="Cube_half_1x143" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 8.5)
+
+[node name="Cube_half_1x144" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 7.5)
+
+[node name="Cube_half_1x145" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 6.5)
+
+[node name="Cube_half_1x146" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 5.5)
+
+[node name="Cube_half_1x147" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 4.5)
+
+[node name="Cube_half_1x148" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 3.5)
+
+[node name="Cube_half_1x149" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 2.5)
+
+[node name="Cube_half_1x150" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 1.5)
+
+[node name="Cube_half_1x151" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 0.5)
+
+[node name="Cube_half_1x152" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 19.5)
+
+[node name="Cube_half_1x153" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 18.5)
+
+[node name="Cube_half_1x154" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 17.5)
+
+[node name="Cube_half_1x155" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 16.5)
+
+[node name="Cube_half_1x156" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 15.5)
+
+[node name="Cube_half_1x157" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 14.5)
+
+[node name="Cube_half_1x158" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 13.5)
+
+[node name="Cube_half_1x159" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 12.5)
+
+[node name="Cube_half_1x160" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, -0.5, 11.5)
+
+[node name="Cube_half_1x161" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 10.5)
+
+[node name="Cube_half_1x162" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 9.5)
+
+[node name="Cube_half_1x163" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 8.5)
+
+[node name="Cube_half_1x164" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 7.5)
+
+[node name="Cube_half_1x165" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 6.5)
+
+[node name="Cube_half_1x166" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 5.5)
+
+[node name="Cube_half_1x167" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 4.5)
+
+[node name="Cube_half_1x168" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 3.5)
+
+[node name="Cube_half_1x169" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 2.5)
+
+[node name="Cube_half_1x170" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 1.5)
+
+[node name="Cube_half_1x171" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 0.5)
+
+[node name="Cube_half_1x172" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 19.5)
+
+[node name="Cube_half_1x173" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 18.5)
+
+[node name="Cube_half_1x174" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 17.5)
+
+[node name="Cube_half_1x175" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 16.5)
+
+[node name="Cube_half_1x176" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 15.5)
+
+[node name="Cube_half_1x177" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 14.5)
+
+[node name="Cube_half_1x178" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 13.5)
+
+[node name="Cube_half_1x179" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 12.5)
+
+[node name="Cube_half_1x180" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -0.5, 11.5)
+
+[node name="Cube_half_1x181" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 10.5)
+
+[node name="Cube_half_1x182" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 9.5)
+
+[node name="Cube_half_1x183" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 8.5)
+
+[node name="Cube_half_1x184" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 7.5)
+
+[node name="Cube_half_1x185" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 6.5)
+
+[node name="Cube_half_1x186" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 5.5)
+
+[node name="Cube_half_1x187" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 4.5)
+
+[node name="Cube_half_1x188" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 3.5)
+
+[node name="Cube_half_1x189" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 2.5)
+
+[node name="Cube_half_1x190" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 1.5)
+
+[node name="Cube_half_1x191" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 0.5)
+
+[node name="Cube_half_1x192" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 19.5)
+
+[node name="Cube_half_1x193" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 18.5)
+
+[node name="Cube_half_1x194" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 17.5)
+
+[node name="Cube_half_1x195" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 16.5)
+
+[node name="Cube_half_1x196" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 15.5)
+
+[node name="Cube_half_1x197" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 14.5)
+
+[node name="Cube_half_1x198" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 13.5)
+
+[node name="Cube_half_1x199" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 12.5)
+
+[node name="Cube_half_1x200" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.5, 11.5)
+
+[node name="Cube_half_1x201" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 10.5)
+
+[node name="Cube_half_1x202" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 9.5)
+
+[node name="Cube_half_1x203" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 8.5)
+
+[node name="Cube_half_1x204" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 7.5)
+
+[node name="Cube_half_1x205" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 6.5)
+
+[node name="Cube_half_1x206" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 5.5)
+
+[node name="Cube_half_1x207" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 4.5)
+
+[node name="Cube_half_1x208" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 3.5)
+
+[node name="Cube_half_1x209" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 2.5)
+
+[node name="Cube_half_1x210" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 1.5)
+
+[node name="Cube_half_1x211" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 0.5)
+
+[node name="Cube_half_1x212" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 19.5)
+
+[node name="Cube_half_1x213" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 18.5)
+
+[node name="Cube_half_1x214" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 17.5)
+
+[node name="Cube_half_1x215" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 16.5)
+
+[node name="Cube_half_1x216" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 15.5)
+
+[node name="Cube_half_1x217" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 14.5)
+
+[node name="Cube_half_1x218" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 13.5)
+
+[node name="Cube_half_1x219" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 12.5)
+
+[node name="Cube_half_1x220" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.5, 11.5)
+
+[node name="Cube_half_1x221" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 10.5)
+
+[node name="Cube_half_1x222" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 9.5)
+
+[node name="Cube_half_1x223" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 8.5)
+
+[node name="Cube_half_1x224" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 7.5)
+
+[node name="Cube_half_1x225" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 6.5)
+
+[node name="Cube_half_1x226" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 5.5)
+
+[node name="Cube_half_1x227" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 4.5)
+
+[node name="Cube_half_1x228" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 3.5)
+
+[node name="Cube_half_1x229" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 2.5)
+
+[node name="Cube_half_1x230" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 1.5)
+
+[node name="Cube_half_1x231" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 0.5)
+
+[node name="Cube_half_1x232" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 19.5)
+
+[node name="Cube_half_1x233" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 18.5)
+
+[node name="Cube_half_1x234" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 17.5)
+
+[node name="Cube_half_1x235" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 16.5)
+
+[node name="Cube_half_1x236" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 15.5)
+
+[node name="Cube_half_1x237" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 14.5)
+
+[node name="Cube_half_1x238" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 13.5)
+
+[node name="Cube_half_1x239" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 12.5)
+
+[node name="Cube_half_1x240" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -0.5, 11.5)
+
+[node name="Cube_half_1x241" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 10.5)
+
+[node name="Cube_half_1x242" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 9.5)
+
+[node name="Cube_half_1x243" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 8.5)
+
+[node name="Cube_half_1x244" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 7.5)
+
+[node name="Cube_half_1x245" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 6.5)
+
+[node name="Cube_half_1x246" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 5.5)
+
+[node name="Cube_half_1x247" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 4.5)
+
+[node name="Cube_half_1x248" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 3.5)
+
+[node name="Cube_half_1x249" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 2.5)
+
+[node name="Cube_half_1x250" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 1.5)
+
+[node name="Cube_half_1x251" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 0.5)
+
+[node name="Cube_half_1x252" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 19.5)
+
+[node name="Cube_half_1x253" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 18.5)
+
+[node name="Cube_half_1x254" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 17.5)
+
+[node name="Cube_half_1x255" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 16.5)
+
+[node name="Cube_half_1x256" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 15.5)
+
+[node name="Cube_half_1x257" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 14.5)
+
+[node name="Cube_half_1x258" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 13.5)
+
+[node name="Cube_half_1x259" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 12.5)
+
+[node name="Cube_half_1x260" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.5, 11.5)
+
+[node name="Cube_half_1x261" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 10.5)
+
+[node name="Cube_half_1x262" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 9.5)
+
+[node name="Cube_half_1x263" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 8.5)
+
+[node name="Cube_half_1x264" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 7.5)
+
+[node name="Cube_half_1x265" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 6.5)
+
+[node name="Cube_half_1x266" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 5.5)
+
+[node name="Cube_half_1x267" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 4.5)
+
+[node name="Cube_half_1x268" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 3.5)
+
+[node name="Cube_half_1x269" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 2.5)
+
+[node name="Cube_half_1x270" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 1.5)
+
+[node name="Cube_half_1x271" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 0.5)
+
+[node name="Cube_half_1x272" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 19.5)
+
+[node name="Cube_half_1x273" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 18.5)
+
+[node name="Cube_half_1x274" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 17.5)
+
+[node name="Cube_half_1x275" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 16.5)
+
+[node name="Cube_half_1x276" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 15.5)
+
+[node name="Cube_half_1x277" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 14.5)
+
+[node name="Cube_half_1x278" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 13.5)
+
+[node name="Cube_half_1x279" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 12.5)
+
+[node name="Cube_half_1x280" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, -0.5, 11.5)
+
+[node name="Cube_half_1x281" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 10.5)
+
+[node name="Cube_half_1x282" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 9.5)
+
+[node name="Cube_half_1x283" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 8.5)
+
+[node name="Cube_half_1x284" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 7.5)
+
+[node name="Cube_half_1x285" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 6.5)
+
+[node name="Cube_half_1x286" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 5.5)
+
+[node name="Cube_half_1x287" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 4.5)
+
+[node name="Cube_half_1x288" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 3.5)
+
+[node name="Cube_half_1x289" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 2.5)
+
+[node name="Cube_half_1x290" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 1.5)
+
+[node name="Cube_half_1x291" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 0.5)
+
+[node name="Cube_half_1x292" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 19.5)
+
+[node name="Cube_half_1x293" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 18.5)
+
+[node name="Cube_half_1x294" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 17.5)
+
+[node name="Cube_half_1x295" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 16.5)
+
+[node name="Cube_half_1x296" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 15.5)
+
+[node name="Cube_half_1x297" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 14.5)
+
+[node name="Cube_half_1x298" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 13.5)
+
+[node name="Cube_half_1x299" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 12.5)
+
+[node name="Cube_half_1x300" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, -0.5, 11.5)
+
+[node name="Cube_half_1x301" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 10.5)
+
+[node name="Cube_half_1x302" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 9.5)
+
+[node name="Cube_half_1x303" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 8.5)
+
+[node name="Cube_half_1x304" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 7.5)
+
+[node name="Cube_half_1x305" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 6.5)
+
+[node name="Cube_half_1x306" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 5.5)
+
+[node name="Cube_half_1x307" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 4.5)
+
+[node name="Cube_half_1x308" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 3.5)
+
+[node name="Cube_half_1x309" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 2.5)
+
+[node name="Cube_half_1x310" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 1.5)
+
+[node name="Cube_half_1x311" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 0.5)
+
+[node name="Cube_half_1x312" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 19.5)
+
+[node name="Cube_half_1x313" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 18.5)
+
+[node name="Cube_half_1x314" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 17.5)
+
+[node name="Cube_half_1x315" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 16.5)
+
+[node name="Cube_half_1x316" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 15.5)
+
+[node name="Cube_half_1x317" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 14.5)
+
+[node name="Cube_half_1x318" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 13.5)
+
+[node name="Cube_half_1x319" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 12.5)
+
+[node name="Cube_half_1x320" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.5, 11.5)
+
+[node name="Cube_half_1x321" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 10.5)
+
+[node name="Cube_half_1x322" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 9.5)
+
+[node name="Cube_half_1x323" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 8.5)
+
+[node name="Cube_half_1x324" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 7.5)
+
+[node name="Cube_half_1x325" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 6.5)
+
+[node name="Cube_half_1x326" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 5.5)
+
+[node name="Cube_half_1x327" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 4.5)
+
+[node name="Cube_half_1x328" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 3.5)
+
+[node name="Cube_half_1x329" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 2.5)
+
+[node name="Cube_half_1x330" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 1.5)
+
+[node name="Cube_half_1x331" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 0.5)
+
+[node name="Cube_half_1x332" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 19.5)
+
+[node name="Cube_half_1x333" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 18.5)
+
+[node name="Cube_half_1x334" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 17.5)
+
+[node name="Cube_half_1x335" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 16.5)
+
+[node name="Cube_half_1x336" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 15.5)
+
+[node name="Cube_half_1x337" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 14.5)
+
+[node name="Cube_half_1x338" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 13.5)
+
+[node name="Cube_half_1x339" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 12.5)
+
+[node name="Cube_half_1x340" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, -0.5, 11.5)
+
+[node name="Cube_half_1x341" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 10.5)
+
+[node name="Cube_half_1x342" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 9.5)
+
+[node name="Cube_half_1x343" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 8.5)
+
+[node name="Cube_half_1x344" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 7.5)
+
+[node name="Cube_half_1x345" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 6.5)
+
+[node name="Cube_half_1x346" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 5.5)
+
+[node name="Cube_half_1x347" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 4.5)
+
+[node name="Cube_half_1x348" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 3.5)
+
+[node name="Cube_half_1x349" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 2.5)
+
+[node name="Cube_half_1x350" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 1.5)
+
+[node name="Cube_half_1x351" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 0.5)
+
+[node name="Cube_half_1x352" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 19.5)
+
+[node name="Cube_half_1x353" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 18.5)
+
+[node name="Cube_half_1x354" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 17.5)
+
+[node name="Cube_half_1x355" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 16.5)
+
+[node name="Cube_half_1x356" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 15.5)
+
+[node name="Cube_half_1x357" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 14.5)
+
+[node name="Cube_half_1x358" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 13.5)
+
+[node name="Cube_half_1x359" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 12.5)
+
+[node name="Cube_half_1x360" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, -0.5, 11.5)
+
+[node name="Cube_half_1x361" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 10.5)
+
+[node name="Cube_half_1x362" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 9.5)
+
+[node name="Cube_half_1x363" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 8.5)
+
+[node name="Cube_half_1x364" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 7.5)
+
+[node name="Cube_half_1x365" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 6.5)
+
+[node name="Cube_half_1x366" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 5.5)
+
+[node name="Cube_half_1x367" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 4.5)
+
+[node name="Cube_half_1x368" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 3.5)
+
+[node name="Cube_half_1x369" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 2.5)
+
+[node name="Cube_half_1x370" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 1.5)
+
+[node name="Cube_half_1x371" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 0.5)
+
+[node name="Cube_half_1x372" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 19.5)
+
+[node name="Cube_half_1x373" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 18.5)
+
+[node name="Cube_half_1x374" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 17.5)
+
+[node name="Cube_half_1x375" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 16.5)
+
+[node name="Cube_half_1x376" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 15.5)
+
+[node name="Cube_half_1x377" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 14.5)
+
+[node name="Cube_half_1x378" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 13.5)
+
+[node name="Cube_half_1x379" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 12.5)
+
+[node name="Cube_half_1x380" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, -0.5, 11.5)
+
+[node name="Cube_half_1x381" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 10.5)
+
+[node name="Cube_half_1x382" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 9.5)
+
+[node name="Cube_half_1x383" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 8.5)
+
+[node name="Cube_half_1x384" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 7.5)
+
+[node name="Cube_half_1x385" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 6.5)
+
+[node name="Cube_half_1x386" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 5.5)
+
+[node name="Cube_half_1x387" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 4.5)
+
+[node name="Cube_half_1x388" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 3.5)
+
+[node name="Cube_half_1x389" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 2.5)
+
+[node name="Cube_half_1x390" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 1.5)
+
+[node name="Cube_half_1x391" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 0.5)
+
+[node name="Cube_half_1x392" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 19.5)
+
+[node name="Cube_half_1x393" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 18.5)
+
+[node name="Cube_half_1x394" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 17.5)
+
+[node name="Cube_half_1x395" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 16.5)
+
+[node name="Cube_half_1x396" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 15.5)
+
+[node name="Cube_half_1x397" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 14.5)
+
+[node name="Cube_half_1x398" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 13.5)
+
+[node name="Cube_half_1x399" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 12.5)
+
+[node name="Cube_half_1x400" parent="Floor-A1" instance=ExtResource("1_q0kfv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, -0.5, 11.5)

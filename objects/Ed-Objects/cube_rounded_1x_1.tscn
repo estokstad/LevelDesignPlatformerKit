@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://vu5mte5xsaj6"]
+
+[ext_resource type="PackedScene" uid="uid://ddtf78lrj7c73" path="res://models/prototyping/models/shape-cube-rounded.glb" id="1_xxssd"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_r4ip0"]
+
+[node name="Cube_rounded_1x1" type="Node3D"]
+
+[node name="AnimatableBody3D" type="AnimatableBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+shape = SubResource("BoxShape3D_r4ip0")
+
+[node name="shape-cube-rounded2" parent="AnimatableBody3D" instance=ExtResource("1_xxssd")]
