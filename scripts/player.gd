@@ -2,6 +2,8 @@ extends CharacterBody3D
 
 signal coin_collected
 signal reached_goal
+@onready var rigid_body_3d: RigidBody3D = $RigidBody3D
+@onready var collision_physics: CollisionShape3D = $RigidBody3D/CollisionShape3D
 
 @export_subgroup("Components")
 @export var view: Node3D
@@ -33,6 +35,13 @@ func _ready() -> void:
 	latest_checkpoint = global_position
 
 func _physics_process(delta):
+
+	if rigid_body_3d.linear_velocity.length() < 0.5:
+		rigid_body_3d.sleeping = true
+		collision_physics.disabled = true
+	else:
+		rigid_body_3d.sleeping = false
+		collision_physics.disabled = false
 
 	# Handle functions
 

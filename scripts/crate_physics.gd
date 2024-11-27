@@ -1,6 +1,7 @@
 extends Node3D
 
 
+
 @onready var rigid_body_3d: RigidBody3D = $RigidBody3D
 @onready var button_presser_area_3d: Area3D = $RigidBody3D/ButtonPresserArea3D
 var countdown = 0.0

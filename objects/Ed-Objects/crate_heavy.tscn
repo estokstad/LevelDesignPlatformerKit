@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1e1glkvvae6u"]
+
+[ext_resource type="PackedScene" uid="uid://csyut2reugea5" path="res://models/props/crate-strong.glb" id="2_nvlpa"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fw6dp"]
+
+[node name="crate_heavy" type="Node3D"]
+
+[node name="Animatablebody_3D" type="AnimatableBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Animatablebody_3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, 0)
+shape = SubResource("BoxShape3D_fw6dp")
+
+[node name="crate-strong2" parent="Animatablebody_3D" instance=ExtResource("2_nvlpa")]
+transform = Transform3D(1.75, 0, 0, 0, 1.75, 0, 0, 0, 1.75, 0, 0, 0)

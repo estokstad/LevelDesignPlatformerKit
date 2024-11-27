@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://fph6pf3vvssy"]
 
-[ext_resource type="PackedScene" uid="uid://d1igeo1rg06wj" path="res://models/props/crate-item-strong.glb" id="1_23ivp"]
 [ext_resource type="Script" path="res://scripts/crate_physics.gd" id="1_h6fso"]
+[ext_resource type="PackedScene" uid="uid://cte7gcfhvygfi" path="res://models/props/crate.glb" id="2_fwiwa"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_fw6dp"]
 
@@ -14,14 +14,15 @@ script = ExtResource("1_h6fso")
 [node name="RigidBody3D" type="RigidBody3D" parent="."]
 collision_layer = 513
 collision_mask = 513
-mass = 1.2
+mass = 10.0
+continuous_cd = true
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.499895, 0)
 shape = SubResource("BoxShape3D_fw6dp")
 
-[node name="crate-item-strong2" parent="RigidBody3D" instance=ExtResource("1_23ivp")]
-transform = Transform3D(1.75, 0, 0, 0, 1.75, 0, 0, 0, 1.75, 0, 0, 0)
+[node name="crate2" parent="RigidBody3D" instance=ExtResource("2_fwiwa")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
 
 [node name="ButtonPresserArea3D" type="Area3D" parent="RigidBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
