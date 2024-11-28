@@ -90,12 +90,12 @@ environment = SubResource("Environment_yt4gm")
 camera_attributes = SubResource("CameraAttributesPractical_blfev")
 
 [node name="Player" parent="." node_paths=PackedStringArray("view") instance=ExtResource("2_e2dq5")]
-transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -9, 2.5, 3.5)
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -8.5, 3, 2)
 view = NodePath("../View")
 
 [node name="View" type="Node3D" parent="." node_paths=PackedStringArray("target") groups=["View"]]
 process_mode = 3
-transform = Transform3D(-0.707107, 0.298836, -0.640856, 4.64389e-15, 0.906308, 0.422618, 0.707107, 0.298836, -0.640856, -9, 2, 3.5)
+transform = Transform3D(-0.707107, 0.298836, -0.640856, 4.64389e-15, 0.906308, 0.422618, 0.707107, 0.298836, -0.640856, -8.5, 2.5, 2)
 script = ExtResource("3_4abeo")
 target = NodePath("../Player")
 
@@ -176,12 +176,12 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 12.5, 
 [node name="door" parent="World/Area-1" instance=ExtResource("11_ttmab")]
 transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -8, 3.5, 25)
 look_at_door_when_opens = true
-open_door_with_coins = 2
+open_door_with_coins = 3
 
 [node name="Label3D" type="Label3D" parent="World/Area-1/door"]
 transform = Transform3D(1, 0, 1.06581e-14, 0, 1, 0, -1.06581e-14, 0, 1, 0.416888, 2.62154, 0.0574036)
 pixel_size = 0.02
-text = "x   1"
+text = "x   3"
 
 [node name="coin" parent="World/Area-1/door" instance=ExtResource("17_xhi0w")]
 transform = Transform3D(-8.58929e-08, 0, 1.965, 0, 1.965, 0, -1.965, 0, -8.58929e-08, -1.011, 1.65009, 0.0574036)
