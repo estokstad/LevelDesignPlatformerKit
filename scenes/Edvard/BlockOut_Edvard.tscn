@@ -178,6 +178,16 @@ transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -8, 3.
 look_at_door_when_opens = true
 open_door_with_coins = 2
 
+[node name="Label3D" type="Label3D" parent="World/Area-1/door"]
+transform = Transform3D(1, 0, 1.06581e-14, 0, 1, 0, -1.06581e-14, 0, 1, 0.416888, 2.62154, 0.0574036)
+pixel_size = 0.02
+text = "x   1"
+
+[node name="coin" parent="World/Area-1/door" instance=ExtResource("17_xhi0w")]
+transform = Transform3D(-8.58929e-08, 0, 1.965, 0, 1.965, 0, -1.965, 0, -8.58929e-08, -1.011, 1.65009, 0.0574036)
+collision_layer = 16384
+collision_mask = 16384
+
 [node name="door2" parent="World/Area-1" instance=ExtResource("11_ttmab")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 20.5, 2.5, 10)
 look_at_door_when_opens = true
@@ -865,30 +875,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, 0.5, 12.5)
 
 [node name="trap-spikes64" parent="World/Area-1/Spiked_half-cube22" instance=ExtResource("17_pimsj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
-
-[node name="Spiked_half-cube21" parent="World/Area-1" instance=ExtResource("21_amaxh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, 0, 6.5)
-
-[node name="trap-spikes64" parent="World/Area-1/Spiked_half-cube21" instance=ExtResource("17_pimsj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
-
-[node name="Spiked_half-cube33" parent="World/Area-1" instance=ExtResource("21_amaxh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, 0, 6.5)
-
-[node name="trap-spikes64" parent="World/Area-1/Spiked_half-cube33" instance=ExtResource("17_pimsj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
-
-[node name="Spiked_half-cube35" parent="World/Area-1" instance=ExtResource("21_amaxh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.5, 0, 6.5)
-
-[node name="trap-spikes64" parent="World/Area-1/Spiked_half-cube35" instance=ExtResource("17_pimsj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
-
-[node name="Spiked_half-cube34" parent="World/Area-1" instance=ExtResource("21_amaxh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 0, 6.5)
-
-[node name="trap-spikes64" parent="World/Area-1/Spiked_half-cube34" instance=ExtResource("17_pimsj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 
 [node name="Spiked_half-cube2" parent="World/Area-1" instance=ExtResource("21_amaxh")]
@@ -1646,6 +1632,12 @@ text = "TIME"
 label_settings = SubResource("LabelSettings_v6r7m")
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="checkpoint" parent="." instance=ExtResource("14_s872q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.5, -5.5, 20)
+
+[node name="checkpoint2" parent="." instance=ExtResource("14_s872q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 4.15, 14)
 
 [connection signal="coin_collected" from="Player" to="HUD" method="_on_coin_collected"]
 [connection signal="reached_goal" from="Player" to="HUD" method="_on_player_reached_goal"]
