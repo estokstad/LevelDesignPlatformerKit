@@ -133,8 +133,8 @@ func handle_controls(delta):
 # Handle gravity
 
 func handle_gravity(delta):
-
-	gravity += 25 * delta
+	if gravity < 15:
+		gravity += 25 * delta
 
 	if gravity > 0 and is_on_floor():
 
@@ -173,4 +173,8 @@ func player_died() -> void:
 	
 func reached_checkpoint(checkpoint_pos : Vector3) -> void:
 	latest_checkpoint = checkpoint_pos
+	
+func bounce_player(bounce_strength : float) -> void:
+	gravity = -bounce_strength
+	jump_double = true;
 	
