@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dppaaoqj1t6n5"]
+[gd_scene load_steps=6 format=3 uid="uid://dppaaoqj1t6n5"]
 
 [ext_resource type="PackedScene" uid="uid://ik4cnj0bwqve" path="res://models/props/spike-block.glb" id="1_rw0dj"]
 [ext_resource type="PackedScene" uid="uid://bunxb353h3lje" path="res://objects/damage_dealer_area_3d.tscn" id="2_2lu74"]
+[ext_resource type="PackedScene" uid="uid://dqe83pil81wbx" path="res://objects/dither_obstacle.tscn" id="3_e4qr1"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_psce6"]
 size = Vector3(0.5, 0.5, 0.5)
@@ -23,5 +24,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 
 [node name="CollisionShape3D" parent="DamageDealerArea3D" index="0"]
 shape = SubResource("BoxShape3D_v07v1")
+
+[node name="DitherObstacle" parent="." index="3" instance=ExtResource("3_e4qr1")]
 
 [editable path="DamageDealerArea3D"]

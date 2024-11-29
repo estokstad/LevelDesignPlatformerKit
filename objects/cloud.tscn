@@ -8,3 +8,5 @@
 script = ExtResource("2_hugjq")
 
 [node name="DitherObstacle" parent="." index="1" instance=ExtResource("3_n6ugn")]
+min_distance_dither = 5.0
+max_distance_dither = 8.0

@@ -37,10 +37,10 @@ func _ready() -> void:
 func _physics_process(delta):
 
 	if rigid_body_3d.linear_velocity.length() < 0.5:
-		rigid_body_3d.sleeping = true
+		#rigid_body_3d.sleeping = true
 		collision_physics.disabled = true
 	else:
-		rigid_body_3d.sleeping = false
+		#rigid_body_3d.sleeping = false
 		collision_physics.disabled = false
 
 	# Handle functions

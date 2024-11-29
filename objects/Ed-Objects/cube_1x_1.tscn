@@ -1,8 +1,47 @@
-[gd_scene load_steps=3 format=3 uid="uid://dj3b5ojgnakuj"]
+[gd_scene load_steps=7 format=4 uid="uid://dj3b5ojgnakuj"]
 
-[ext_resource type="PackedScene" uid="uid://dvwlti6x17wjs" path="res://models/prototyping/models/shape-cube.glb" id="1_tsx37"]
+[ext_resource type="Texture2D" uid="uid://bvj25ii6y01ic" path="res://models/prototyping/models/Textures/colormap.png" id="1_wqipb"]
+[ext_resource type="PackedScene" uid="uid://dqe83pil81wbx" path="res://objects/dither_obstacle.tscn" id="2_h2d5e"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_a0gn7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1ne6c"]
+resource_name = "colormap"
+cull_mode = 2
+albedo_texture = ExtResource("1_wqipb")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mtnr4"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1, 1),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AgAAAAEAAQADAAIABAAAAAIAAgAFAAQABAAGAAEAAQAAAAQABwAGAAQABAAFAAcABwADAAEAAQAGAAcAAgADAAcABwAFAAIA"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAAAAAAD//wAAAAAAAAAA//8AAAAA/////wAAAAAAAAAA//8AAAAA/////wAA//8AAP//AAD///////8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vvyfi"]
+resource_name = "shape-cube_shape-cube"
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1, 1),
+"attribute_data": PackedByteArray("/3eY+f93mPn/d2XG/3dlxv93mPn/d2XG/3eY+f93Zcb/d5j5/3eY+f93mPn/d5j5/3eY+f93mPn/d2XG/3dlxv93Zcb/d5j5/3dlxv93mPn/d2XG/3dlxv93Zcb/d2XG"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AgAAAAEAAQADAAIABgAEAAUABQAHAAYACgAIAAkACQALAAoADgAMAA0ADQAPAA4AEgAQABEAEQATABIAFgAUABUAFQAXABYA"),
+"material": SubResource("StandardMaterial3D_1ne6c"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAAAA/////wAAAAD//wAA//8AAP///////wAA//8AAAAAAAD/vwAA//8AAP+/AAAAAP///78AAP//////v///AAD///+///8AAAAA/78AAAAA////vwAAAAAAAP+///8AAP//AIAAAAAA//8AgP///////wCAAAD/////AID/////AAD/v///AAAAAP+//////////7///wAA////v/////8AAP////////////8AAP//AAD//wAA/////////3////9/////f////3////9/////f////3////9///8AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/AAD/fwAA/38AAP9/AAD/f/+//3//v/9//7//f/+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_mtnr4")
 
 [node name="Cube_1x1" type="Node3D"]
 
@@ -12,4 +51,8 @@
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 shape = SubResource("BoxShape3D_a0gn7")
 
-[node name="shape-cube2" parent="AnimatableBody3D" instance=ExtResource("1_tsx37")]
+[node name="shape-cube" type="MeshInstance3D" parent="AnimatableBody3D"]
+mesh = SubResource("ArrayMesh_vvyfi")
+skeleton = NodePath("")
+
+[node name="DitherObstacle" parent="AnimatableBody3D" instance=ExtResource("2_h2d5e")]

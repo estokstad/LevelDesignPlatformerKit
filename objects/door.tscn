@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://0v6t454aaexr"]
+[gd_scene load_steps=7 format=3 uid="uid://0v6t454aaexr"]
 
 [ext_resource type="PackedScene" uid="uid://ctsyh8fjntx7y" path="res://models/props/door-rotate-large.glb" id="1_ue8vn"]
 [ext_resource type="Script" path="res://scripts/door.gd" id="2_lc1yq"]
 [ext_resource type="PackedScene" uid="uid://dwvhgrcyestak" path="res://objects/trap_spikes.tscn" id="3_egcea"]
+[ext_resource type="PackedScene" uid="uid://dqe83pil81wbx" path="res://objects/dither_obstacle.tscn" id="3_ortr7"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_2844u"]
 size = Vector3(2, 2, 0.5)
@@ -19,6 +20,8 @@ transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
 
 [node name="door" parent="door-rotate-large" index="0"]
 transform = Transform3D(1, 0, -3.87541e-16, 0, 1, 0, 3.87541e-16, 0, 1, -0.3, 3.53243e-18, -2.38418e-08)
+
+[node name="DitherObstacle" parent="door-rotate-large" index="1" instance=ExtResource("3_ortr7")]
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." index="2"]
 
@@ -58,3 +61,5 @@ transform = Transform3D(0.353553, 0.494975, 0, -0.353553, 0.494975, 0, 0, 0, 0.5
 
 [node name="trap-spikes7" parent="." index="9" instance=ExtResource("3_egcea")]
 transform = Transform3D(-0.353553, -0.494975, 4.37114e-08, -0.353553, 0.494975, 0, -3.09086e-08, -4.32721e-08, -0.5, -0.692554, 1.68685, 0.01984)
+
+[node name="DitherObstacle" parent="." index="10" instance=ExtResource("3_ortr7")]

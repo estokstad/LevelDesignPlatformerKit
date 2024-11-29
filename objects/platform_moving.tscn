@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://bpharv43ulngb"]
+[gd_scene load_steps=7 format=3 uid="uid://bpharv43ulngb"]
 
 [ext_resource type="PackedScene" uid="uid://biyd6x403gvny" path="res://models/core_models/platform-falling.glb" id="1_wvq4c"]
 [ext_resource type="Texture2D" uid="uid://72ldk18ropuj" path="res://models/props/Textures/colormap.png" id="2_n2tog"]
+[ext_resource type="PackedScene" uid="uid://dqe83pil81wbx" path="res://objects/dither_obstacle.tscn" id="3_yk443"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xec8c"]
 albedo_texture = ExtResource("2_n2tog")
@@ -17,7 +18,9 @@ size = Vector3(2, 0.5, 2)
 [node name="platform-falling2" parent="." index="0"]
 surface_material_override/0 = SubResource("StandardMaterial3D_xec8c")
 
-[node name="AnimatableBody3D" type="AnimatableBody3D" parent="." index="1"]
+[node name="DitherObstacle" parent="." index="1" instance=ExtResource("3_yk443")]
+
+[node name="AnimatableBody3D" type="AnimatableBody3D" parent="." index="2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
 physics_material_override = SubResource("PhysicsMaterial_8y38s")
 sync_to_physics = false
