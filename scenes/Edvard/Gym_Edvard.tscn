@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=3 uid="uid://f3nk1nigwrny"]
+[gd_scene load_steps=29 format=3 uid="uid://f3nk1nigwrny"]
 
 [ext_resource type="PackedScene" uid="uid://dl2ed4gkybggf" path="res://objects/player.tscn" id="1_gdauu"]
 [ext_resource type="Script" path="res://scripts/view.gd" id="2_5ipwb"]
@@ -16,7 +16,6 @@
 [ext_resource type="PackedScene" uid="uid://fph6pf3vvssy" path="res://objects/Ed-Objects/crate_physics.tscn" id="13_sdsih"]
 [ext_resource type="PackedScene" uid="uid://g73m8k0j7lyo" path="res://objects/button.tscn" id="14_7x811"]
 [ext_resource type="LabelSettings" uid="uid://daohhjonjrdx8" path="res://themes/label_settings.tres" id="14_ebwxb"]
-[ext_resource type="PackedScene" uid="uid://b8aqlm0q2mpr5" path="res://objects/Ed-Objects/scene_to_spawn.tscn" id="15_5632u"]
 [ext_resource type="FontFile" uid="uid://d0cxd77jybrcn" path="res://fonts/lilita_one_regular.ttf" id="15_q10e7"]
 [ext_resource type="Theme" uid="uid://d3avl0mr4r87l" path="res://themes/default_theme.tres" id="16_nre0p"]
 [ext_resource type="Texture2D" uid="uid://dm50aa4qogm65" path="res://sprites/button_rectangle_depth_gloss.png" id="17_hl3s3"]
@@ -333,10 +332,6 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 0, 
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -2.5, 0, 2)
 
 [node name="spawn_scene" parent="." instance=ExtResource("22_1ack5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, 2, 6)
-
-[node name="scene_to_spawn" parent="." instance=ExtResource("15_5632u")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, 1, 5)
 
 [connection signal="coin_collected" from="Player" to="HUD" method="_on_coin_collected"]
 [connection signal="reached_goal" from="Player" to="HUD" method="_on_player_reached_goal"]

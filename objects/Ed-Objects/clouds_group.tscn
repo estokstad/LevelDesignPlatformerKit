@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://byynadn4fyvdo"]
+
+[ext_resource type="PackedScene" uid="uid://dy017k58p20sk" path="res://objects/cloud.tscn" id="1_yo7we"]
+
+[node name="Clouds-group" type="Node3D"]
+
+[node name="Clouds5" type="Node3D" parent="."]
+
+[node name="cube" parent="Clouds5" instance=ExtResource("1_yo7we")]
+transform = Transform3D(0.930501, 0, -0.36629, 0, 1, 0, 0.36629, 0, 0.930501, 2.21413, -0.770057, -2.15568)
+
+[node name="cube5" parent="Clouds5" instance=ExtResource("1_yo7we")]
+transform = Transform3D(0.930501, 0, -0.36629, 0, 1, 0, 0.36629, 0, 0.930501, 2.00502, 1.83986, -0.743642)
+
+[node name="cube2" parent="Clouds5" instance=ExtResource("1_yo7we")]
+transform = Transform3D(0.756619, 0, 0.653856, 0, 1, 0, -0.653856, 0, 0.756619, -1.03049, -1.83066, 0.324905)
+
+[node name="cube4" parent="Clouds5" instance=ExtResource("1_yo7we")]
+transform = Transform3D(0.98046, 0, -0.196716, 0, 1, 0, 0.196716, 0, 0.98046, -1.59433, -0.509848, 2.36496)
+
+[node name="cube3" parent="Clouds5" instance=ExtResource("1_yo7we")]
+transform = Transform3D(0.904202, 0, -0.427105, 0, 1, 0, 0.427105, 0, 0.904202, -1.59433, 1.27071, 0.20946)

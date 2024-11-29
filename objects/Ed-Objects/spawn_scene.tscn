@@ -2,5 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/spawn_scene.gd" id="1_447os"]
 
-[node name="spawn_scene" type="Node3D"]
+[node name="spawn_scene" type="Node3D" node_paths=PackedStringArray("scene_to_spawn")]
 script = ExtResource("1_447os")
+is_on_from_start = false
+scene_to_spawn = NodePath("")

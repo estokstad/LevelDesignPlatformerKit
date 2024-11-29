@@ -7,18 +7,16 @@
 height = 1.04516
 radius = 1.0
 
-[node name="Grass_Cylinder" type="Node3D"]
-script = ExtResource("1_wu2hr")
-
-[node name="AnimatableBody3D" type="AnimatableBody3D" parent="."]
+[node name="Grass-cylinder" type="AnimatableBody3D"]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
 sync_to_physics = false
+script = ExtResource("1_wu2hr")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
 shape = SubResource("CylinderShape3D_dhwac")
 
-[node name="block-grass-curve2" parent="AnimatableBody3D" instance=ExtResource("2_7ks7c")]
+[node name="block-grass-curve2" parent="." instance=ExtResource("2_7ks7c")]
 transform = Transform3D(-1, -8.74228e-08, 0, 8.74228e-08, -1, 0, 0, 0, 1, 0, 0, 0)
 
-[node name="block-grass-curve3" parent="AnimatableBody3D" instance=ExtResource("2_7ks7c")]
+[node name="block-grass-curve3" parent="." instance=ExtResource("2_7ks7c")]

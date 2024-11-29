@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://dmi5g4yshkjy7"]
+[gd_scene load_steps=3 format=3 uid="uid://b3o6h4kckrg7i"]
 
 [ext_resource type="PackedScene" uid="uid://c0n2315wnksre" path="res://models/prototyping/models/shape-cube-half.glb" id="1_cv38i"]
 

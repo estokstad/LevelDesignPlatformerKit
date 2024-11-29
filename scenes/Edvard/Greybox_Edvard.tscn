@@ -189,10 +189,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, -4.5, 23)
 
 [node name="moving_object_path" parent="World/Area-1" instance=ExtResource("11_pdxeo")]
 curve = SubResource("Curve3D_elo82")
-movement_speed = null
 is_on_from_start = false
 look_at_object_when_activated = true
-ping_pong = null
 
 [node name="platform14" parent="World/Area-1" instance=ExtResource("12_t1srv")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -2, 6, 32)
@@ -263,25 +261,19 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 4, 4)
 
 [node name="moving_object_path2" parent="World/Area-1" instance=ExtResource("11_pdxeo")]
 curve = SubResource("Curve3D_jim3u")
-movement_speed = null
 is_on_from_start = false
 look_at_object_when_activated = true
-ping_pong = null
 
 [node name="moving_object_path3" parent="World/Area-1" instance=ExtResource("11_pdxeo")]
 curve = SubResource("Curve3D_jim3u")
-movement_speed = null
 is_on_from_start = false
 look_at_object_when_activated = true
-ping_pong = null
 
 [node name="platform-moving3" parent="World/Area-1" instance=ExtResource("10_qrvx1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.5, -6.5, 3)
 
 [node name="moving_object_path4" parent="World/Area-1" instance=ExtResource("11_pdxeo")]
 curve = SubResource("Curve3D_nj2p4")
-movement_speed = null
-ping_pong = null
 
 [node name="button3" parent="World/Area-1" node_paths=PackedStringArray("target") instance=ExtResource("9_hj6bb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 2, 9)
@@ -292,10 +284,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 4.5, 14)
 
 [node name="moving_object_path5" parent="World/Area-1" instance=ExtResource("11_pdxeo")]
 curve = SubResource("Curve3D_0wl1w")
-movement_speed = null
 is_on_from_start = false
 look_at_object_when_activated = true
-ping_pong = null
 
 [node name="GrassBlock_tall5" parent="World/Area-1" instance=ExtResource("3_lwqo3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 9)
