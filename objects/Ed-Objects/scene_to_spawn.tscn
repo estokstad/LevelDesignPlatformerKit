@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8aqlm0q2mpr5"]
+
+[ext_resource type="PackedScene" uid="uid://vu5mte5xsaj6" path="res://objects/Ed-Objects/cube_rounded_1x_1.tscn" id="1_mhgu1"]
+
+[node name="scene_to_spawn" type="Node3D"]
+
+[node name="Cube_rounded_1x1" parent="." instance=ExtResource("1_mhgu1")]

@@ -1,7 +1,7 @@
 extends Node3D
 
 @export var ROTATIONSPEED = 1
-
+@onready var collision_shape_3d: CollisionShape3D = $AnimatableBody3D/CollisionShape3D
 @onready var animatable_body_3d: AnimatableBody3D = $AnimatableBody3D
 
 # Called when the node enters the scene tree for the first time.
@@ -13,4 +13,3 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	
 	animatable_body_3d.rotation.z += delta * ROTATIONSPEED
-	
