@@ -55,6 +55,7 @@ collision_layer = 513
 collision_mask = 513
 input_ray_pickable = false
 mass = 5.0
+can_sleep = false
 max_contacts_reported = 10
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]

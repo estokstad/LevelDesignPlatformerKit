@@ -63,7 +63,7 @@ point_count = 2
 
 [sub_resource type="Curve3D" id="Curve3D_jim3u"]
 _data = {
-"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 7, 4, 4, 0, 0, 0, 0, 0, 0, 7, 4, 11.5),
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 7, 4, 4, 0, 0, 0, 0, 0, 0, 7, 4, 10.5),
 "tilts": PackedFloat32Array(0, 0)
 }
 point_count = 2
@@ -134,9 +134,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -15, 0)
 death_height = -15.0
 
 [node name="Platforms" type="Node" parent="World/Area-1"]
-
-[node name="trap-spikes" parent="World/Area-1/Platforms" instance=ExtResource("17_pimsj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 1, -1.5)
 
 [node name="trap-spikes3" parent="World/Area-1/Platforms" instance=ExtResource("17_pimsj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 1, -3.5)
@@ -258,7 +255,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 4, 4)
 [node name="moving_object_path2" parent="World/Area-1/Platforms/Moving-platforms" node_paths=PackedStringArray("object_to_move") instance=ExtResource("12_gnx63")]
 curve = SubResource("Curve3D_jim3u")
 object_to_move = NodePath("../platform-moving2")
-movement_speed = 2.0
+movement_speed = 2.5
 is_on_from_start = false
 look_at_object_when_activated = true
 ping_pong = true
@@ -2007,17 +2004,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 [node name="Grass_Cylinder8" parent="World/Area-2/spawn_scene/Scene_to_spawn" instance=ExtResource("26_qegen")]
 transform = Transform3D(-1, 0, 0, 0, -1, 0, 0, 0, 1, -4, -5, -5.5)
 
-[node name="coin" parent="World/Area-2/spawn_scene/Scene_to_spawn/Grass_Cylinder8" instance=ExtResource("17_xhi0w")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -2, 0)
-
 [node name="trap-spikes2" parent="World/Area-2/spawn_scene/Scene_to_spawn/Grass_Cylinder8" instance=ExtResource("17_pimsj")]
 transform = Transform3D(-1, 0, 0, 0, -1, 0, 0, 0, 1, 0, -0.938208, 0)
 
 [node name="Grass_Cylinder9" parent="World/Area-2/spawn_scene/Scene_to_spawn" instance=ExtResource("26_qegen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -5, -4.5)
-
-[node name="coin" parent="World/Area-2/spawn_scene/Scene_to_spawn/Grass_Cylinder9" instance=ExtResource("17_xhi0w")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -2, 0)
 
 [node name="trap-spikes2" parent="World/Area-2/spawn_scene/Scene_to_spawn/Grass_Cylinder9" instance=ExtResource("17_pimsj")]
 transform = Transform3D(-1, 0, 0, 0, -1, 0, 0, 0, 1, 0, -0.938208, 0)
@@ -2043,25 +2034,18 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.938208, 0)
 [node name="Grass_Cylinder12" parent="World/Area-2/spawn_scene/Scene_to_spawn" instance=ExtResource("26_qegen")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -5.5, -5)
 
-[node name="coin" parent="World/Area-2/spawn_scene/Scene_to_spawn/Grass_Cylinder12" instance=ExtResource("17_xhi0w")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.499999, 1, 0)
-
 [node name="trap-spikes" parent="World/Area-2/spawn_scene/Scene_to_spawn/Grass_Cylinder12" instance=ExtResource("17_pimsj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.53674e-07, 0.925617, 0)
 
 [node name="Grass_Cylinder13" parent="World/Area-2/spawn_scene/Scene_to_spawn" instance=ExtResource("26_qegen")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -1, -4, -2)
+transform = Transform3D(-4.37114e-08, -4.37114e-08, 1, -1, 1.91069e-15, -4.37114e-08, 0, -1, -4.37114e-08, -1, -4.5, -8)
 
 [node name="button" parent="World/Area-2/spawn_scene/Scene_to_spawn/Grass_Cylinder13" node_paths=PackedStringArray("target") instance=ExtResource("10_n0a85")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0.311685)
-visible = false
+transform = Transform3D(-2.18557e-08, 0.5, -2.18557e-08, 0, -2.18557e-08, -0.5, -0.5, -2.18557e-08, 1.77636e-15, 0.898241, 0, 5.96046e-08)
 target = NodePath("../../../../spawn_scene2")
 
 [node name="coin" parent="World/Area-2/spawn_scene/Scene_to_spawn" instance=ExtResource("17_xhi0w")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -3.5, -8)
-
-[node name="Grass_Cylinder14" parent="World/Area-2/spawn_scene/Scene_to_spawn" instance=ExtResource("26_qegen")]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -1, -4, -8)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -3, -8)
 
 [node name="platform-falling2" parent="World/Area-2/spawn_scene/Scene_to_spawn" instance=ExtResource("11_lejp2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, -5.5, -5)
@@ -2118,9 +2102,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.938208, 0)
 
 [node name="trap-spikes5" parent="World/Area-2/spawn_scene2/Scene_to_spawn_secret/Grass_Cylinder20" instance=ExtResource("17_pimsj")]
 transform = Transform3D(-1, 0, 0, 0, -1, 0, 0, 0, 1, 0, -0.938208, 0)
-
-[node name="coin" parent="World/Area-2/spawn_scene2/Scene_to_spawn_secret/Grass_Cylinder20" instance=ExtResource("17_xhi0w")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.76837e-07, 1.5, 0)
 
 [node name="Grass_Cylinder23" parent="World/Area-2/spawn_scene2/Scene_to_spawn_secret" instance=ExtResource("26_qegen")]
 transform = Transform3D(-0.707107, 0.707107, -1.00486e-14, -0.707107, -0.707107, -1.00486e-14, -7.10543e-15, 0, 1, -1.79794, 0.0698819, -0.772728)
@@ -2200,9 +2181,6 @@ transform = Transform3D(-1, 0, 0, 0, -1, 0, 0, 0, 1, 0, -0.938208, 0)
 [node name="Grass_Cylinder22" parent="World/Area-2/spawn_scene2/Scene_to_spawn_secret" instance=ExtResource("26_qegen")]
 transform = Transform3D(4.37114e-08, 1, 6.21176e-22, -1, 4.37114e-08, -1.42109e-14, -7.10543e-15, 0, 1, -1.79794, 0.0698819, 0.227272)
 
-[node name="coin2" parent="World/Area-2/spawn_scene2/Scene_to_spawn_secret/Grass_Cylinder22" instance=ExtResource("17_xhi0w")]
-transform = Transform3D(-0.707107, -0.707107, -1.21297e-14, 0.707107, -0.707107, 5.0243e-15, -1.21297e-14, -5.02429e-15, 1, -0.999997, -0.999997, 0)
-
 [node name="trap-spikes4" parent="World/Area-2/spawn_scene2/Scene_to_spawn_secret/Grass_Cylinder22" instance=ExtResource("17_pimsj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.938208, 0)
 
@@ -2230,7 +2208,7 @@ texture = ExtResource("38_xgkwy")
 
 [node name="door" parent="World/Area-2/spawn_scene2/Scene_to_spawn_secret" instance=ExtResource("11_ttmab")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.79794, -0.430118, -8.6031)
-open_door_with_coins = 20
+open_door_with_coins = 15
 
 [node name="spike-block-wide" parent="World/Area-2/spawn_scene2/Scene_to_spawn_secret" instance=ExtResource("24_acg7n")]
 transform = Transform3D(0.210847, 0.977519, 0, -0.977519, 0.210847, 0, 0, 0, 1, -0.640664, 0.479123, -8.27273)
