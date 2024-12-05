@@ -1,0 +1,59 @@
+[gd_scene load_steps=7 format=4 uid="uid://5hnlacwemt2a"]
+
+[ext_resource type="PackedScene" uid="uid://dqe83pil81wbx" path="res://objects/dither_obstacle.tscn" id="1_m5tbu"]
+[ext_resource type="Texture2D" uid="uid://bvj25ii6y01ic" path="res://models/prototyping/models/Textures/colormap.png" id="2_ma338"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_k3bcp"]
+data = PackedVector3Array(0.5, 1, -0.5, -0.5, 0, -0.5, 0.5, 0, -0.5, 0.5, 1, 0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, 0, -0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, 0.5, 1, 0.5, 0.5, 1, -0.5, 0.5, 0, -0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, 0.5, 1, 0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, 0.5, 1, -0.5, 0.5, 1, -0.5, 0.5, 1, 0.5, -0.5, 0, 0.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2c40s"]
+resource_name = "colormap"
+cull_mode = 2
+albedo_texture = ExtResource("2_ma338")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_535yf"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1, 1),
+"format": 34896613377,
+"index_count": 24,
+"index_data": PackedByteArray("AgAAAAEABQADAAQABAADAAEAAQAAAAQABQACAAEAAQADAAUABAAAAAIAAgAFAAQA"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 6,
+"vertex_data": PackedByteArray("AAAAAAAAAAD//wAAAAAAAP////8AAAAA//8AAP//AAAAAAAA//8AAP///////wAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_srt3p"]
+resource_name = "shape-slope_shape-slope"
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 1, 1),
+"attribute_data": PackedByteArray("/3eY+f93mPn/d2XG/3eY+f93mPn/d2XG/3eY+f93mPn/d5j5/3eY+f93Zcb/d5j5/3dlxv93mPn/d5j5/3dlxv93mPn/d2XG"),
+"format": 34896613399,
+"index_count": 24,
+"index_data": PackedByteArray("AgAAAAEABQADAAQACAAGAAcABwAJAAgADAAKAAsACwANAAwAEAAOAA8ADwARABAA"),
+"material": SubResource("StandardMaterial3D_2c40s"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 18,
+"vertex_data": PackedByteArray("AAAAAAAA/////wAAAAD///////8AAP////8AAP//AIAAAAAA//8AgP///////wCA//8AAP///7///wAAAAD/vwAAAAD///+/AAAAAAAA/7//////AAD/v///AAAAAP+//////////7///wAA////vwAAAAAAAPzF/////wAA/MUAAAAA///8xf////////zF/3////9/////f////3////9/////f///AAD/fwAA/38AAP9/AAD/f/9/AAD/fwAA/38AAP9/AAD+nADG/pwAxv6cAMb+nADG")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_535yf")
+
+[node name="slope_1x1" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0, 0.5)
+
+[node name="AnimatableBody3D" type="AnimatableBody3D" parent="."]
+
+[node name="DitherObstacle" parent="AnimatableBody3D" instance=ExtResource("1_m5tbu")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D"]
+shape = SubResource("ConcavePolygonShape3D_k3bcp")
+
+[node name="shape-slope" type="MeshInstance3D" parent="AnimatableBody3D"]
+mesh = SubResource("ArrayMesh_srt3p")
+skeleton = NodePath("")

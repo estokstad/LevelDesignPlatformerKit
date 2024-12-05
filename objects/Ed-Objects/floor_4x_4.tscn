@@ -1,0 +1,56 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvfw46n8hyt6h"]
+
+[ext_resource type="PackedScene" uid="uid://b3o6h4kckrg7i" path="res://objects/Ed-Objects/cube_half_1x_1.tscn" id="1_0w6rv"]
+
+[node name="Floor_4x4" type="Node3D"]
+
+[node name="Pivot" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -0.98, 2)
+
+[node name="Cube_half_1x1" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, -1.5)
+
+[node name="Cube_half_1x2" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, -0.5)
+
+[node name="Cube_half_1x3" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0.5)
+
+[node name="Cube_half_1x4" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 1.5)
+
+[node name="Cube_half_1x5" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.5, -1.5)
+
+[node name="Cube_half_1x6" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.5, -0.5)
+
+[node name="Cube_half_1x7" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.5, 0.5)
+
+[node name="Cube_half_1x8" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.5, 1.5)
+
+[node name="Cube_half_1x9" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0.5, -1.5)
+
+[node name="Cube_half_1x10" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0.5, -0.5)
+
+[node name="Cube_half_1x11" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0.5, 0.5)
+
+[node name="Cube_half_1x12" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0.5, 1.5)
+
+[node name="Cube_half_1x13" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.5, -1.5)
+
+[node name="Cube_half_1x14" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.5, -0.5)
+
+[node name="Cube_half_1x15" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.5, 0.5)
+
+[node name="Cube_half_1x16" parent="Pivot" instance=ExtResource("1_0w6rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0.5, 1.5)

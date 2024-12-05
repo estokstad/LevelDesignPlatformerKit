@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4 uid="uid://dj3b5ojgnakuj"]
+[gd_scene load_steps=8 format=4 uid="uid://dj3b5ojgnakuj"]
 
 [ext_resource type="Texture2D" uid="uid://bvj25ii6y01ic" path="res://models/prototyping/models/Textures/colormap.png" id="1_wqipb"]
 [ext_resource type="PackedScene" uid="uid://dqe83pil81wbx" path="res://objects/dither_obstacle.tscn" id="2_h2d5e"]
@@ -11,7 +11,7 @@ cull_mode = 2
 albedo_texture = ExtResource("1_wqipb")
 texture_filter = 2
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_mtnr4"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_4cmea"]
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 1, 1),
 "format": 34896613377,
@@ -41,7 +41,10 @@ _surfaces = [{
 "vertex_data": PackedByteArray("AAAAAAAA/////wAAAAD//wAA//8AAP///////wAA//8AAAAAAAD/vwAA//8AAP+/AAAAAP///78AAP//////v///AAD///+///8AAAAA/78AAAAA////vwAAAAAAAP+///8AAP//AIAAAAAA//8AgP///////wCAAAD/////AID/////AAD/v///AAAAAP+//////////7///wAA////v/////8AAP////////////8AAP//AAD//wAA/////////3////9/////f////3////9/////f////3////9///8AAP9/AAD/fwAA/38AAP9//3////9/////f////3////9/AAD/fwAA/38AAP9/AAD/f/+//3//v/9//7//f/+/")
 }]
 blend_shape_mode = 0
-shadow_mesh = SubResource("ArrayMesh_mtnr4")
+shadow_mesh = SubResource("ArrayMesh_4cmea")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mbahf"]
+albedo_color = Color(0.544974, 0.544974, 0.544974, 1)
 
 [node name="Cube_1x1" type="Node3D"]
 
@@ -54,5 +57,6 @@ shape = SubResource("BoxShape3D_a0gn7")
 [node name="shape-cube" type="MeshInstance3D" parent="AnimatableBody3D"]
 mesh = SubResource("ArrayMesh_vvyfi")
 skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_mbahf")
 
 [node name="DitherObstacle" parent="AnimatableBody3D" instance=ExtResource("2_h2d5e")]

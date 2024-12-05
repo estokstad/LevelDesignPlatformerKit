@@ -1,0 +1,44 @@
+[gd_scene load_steps=2 format=3 uid="uid://cuf5jmdpcpcsn"]
+
+[ext_resource type="PackedScene" uid="uid://dj3b5ojgnakuj" path="res://objects/Ed-Objects/cube_1x_1.tscn" id="1_3xmvl"]
+
+[node name="Wall_4x4" type="Node3D"]
+
+[node name="Pivot" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.99, 0.99, 0.01)
+
+[node name="Cube_1x1" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, -1, 0)
+
+[node name="Cube_1x2" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 0)
+
+[node name="Cube_1x3" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 1, 0)
+
+[node name="Cube_1x4" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -1, 0)
+
+[node name="Cube_1x5" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0)
+
+[node name="Cube_1x6" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 1, 0)
+
+[node name="Cube_1x7" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -1, 0)
+
+[node name="Cube_1x8" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0, 0)
+
+[node name="Cube_1x9" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 1, 0)
+
+[node name="Cube_1x10" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, -1, 0)
+
+[node name="Cube_1x11" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0, 0)
+
+[node name="Cube_1x12" parent="Pivot" instance=ExtResource("1_3xmvl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 1, 0)

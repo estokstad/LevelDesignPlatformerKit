@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://c14v670qgrgwo"]
 
-[ext_resource type="PackedScene" uid="uid://dmi5g4yshkjy7" path="res://objects/Ed-Objects/cube_half_1x_1.tscn" id="1_q0kfv"]
+[ext_resource type="PackedScene" uid="uid://b3o6h4kckrg7i" path="res://objects/Ed-Objects/cube_half_1x_1.tscn" id="1_q0kfv"]
 
 [node name="Floor-A1" type="Node3D"]
 

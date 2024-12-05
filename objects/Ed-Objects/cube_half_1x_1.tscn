@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4 uid="uid://b3o6h4kckrg7i"]
+[gd_scene load_steps=8 format=4 uid="uid://b3o6h4kckrg7i"]
 
 [ext_resource type="Texture2D" uid="uid://bvj25ii6y01ic" path="res://models/prototyping/models/Textures/colormap.png" id="1_kwh15"]
 [ext_resource type="PackedScene" uid="uid://dqe83pil81wbx" path="res://objects/dither_obstacle.tscn" id="2_g6cnq"]
@@ -44,6 +44,9 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_2kgqx")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_snffd"]
+albedo_color = Color(0.758192, 0.758192, 0.758192, 1)
+
 [node name="Cube_half_1x1" type="Node3D"]
 
 [node name="AnimatableBody3D" type="AnimatableBody3D" parent="."]
@@ -55,5 +58,6 @@ shape = SubResource("BoxShape3D_q1n1q")
 [node name="shape-cube-half" type="MeshInstance3D" parent="AnimatableBody3D"]
 mesh = SubResource("ArrayMesh_36sky")
 skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_snffd")
 
 [node name="DitherObstacle" parent="AnimatableBody3D" instance=ExtResource("2_g6cnq")]
